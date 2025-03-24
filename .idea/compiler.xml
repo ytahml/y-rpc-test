@@ -9,6 +9,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="test-rpc-interface" />
+        <module name="test-rpc-client" />
         <module name="test-rpc-server-one" />
       </profile>
     </annotationProcessing>
