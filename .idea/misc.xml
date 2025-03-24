@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/test-rpc-server-one/pom.xml" />
         <option value="$PROJECT_DIR$/test-rpc-interface/pom.xml" />
         <option value="$PROJECT_DIR$/test-rpc-client/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>

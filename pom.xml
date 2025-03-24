@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <groupId>top.ytazwc.test</groupId>
+    <artifactId>test-rpc</artifactId>
+    <version>1.0.0.socket</version>
+    <packaging>pom</packaging>
+
+    <modelVersion>4.0.0</modelVersion>
+    <properties>
+        <encoding>UTF-8</encoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <y-rpc.version>1.0.0.socket</y-rpc.version>
+        <test-rpc-interface.version>1.0-SNAPSHOT</test-rpc-interface.version>
+    </properties>
+
+    <modules>
+        <module>test-rpc-server-one</module>
+        <module>test-rpc-client</module>
+        <module>test-rpc-interface</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>top.ytazwc.rpc</groupId>
+                <artifactId>y-rpc-core</artifactId>
+                <version>${y-rpc.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>top.ytazwc.test</groupId>
+                <artifactId>test-rpc-interface</artifactId>
+                <version>${test-rpc-interface.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.34</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+
+
+
+</project>

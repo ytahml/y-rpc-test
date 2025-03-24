@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2debe2a-2526-425b-9e4a-2c37ce9870ba" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/test-rpc-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-rpc-client/src/main/java/top/ytazwc/test/SocketClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-rpc-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-rpc-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-rpc-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-rpc-interface/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-rpc-server-one/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-rpc-server-one/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +56,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Maven.test-rpc [clean].executor": "Run",
     "Maven.test-rpc-interface [clean].executor": "Run",
     "Maven.test-rpc-interface [install].executor": "Run",
     "Maven.test-rpc-interface [package].executor": "Run",
@@ -142,7 +141,7 @@
       <workItem from="1717597106708" duration="796000" />
       <workItem from="1719764302611" duration="6000" />
       <workItem from="1722411563034" duration="32000" />
-      <workItem from="1742816006761" duration="3947000" />
+      <workItem from="1742816006761" duration="4905000" />
     </task>
     <task id="LOCAL-00001" summary="测试rpc初始工程">
       <option name="closed" value="true" />
@@ -168,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742817517283</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="测试-客户端Socket">
+      <option name="closed" value="true" />
+      <created>1742821682776</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742821682776</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +185,7 @@
     <MESSAGE value="测试rpc初始工程" />
     <MESSAGE value="测试-接口模块" />
     <MESSAGE value="测试-服务提供者1" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试-服务提供者1" />
+    <MESSAGE value="测试-客户端Socket" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试-客户端Socket" />
   </component>
 </project>
