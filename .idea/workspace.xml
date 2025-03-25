@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2debe2a-2526-425b-9e4a-2c37ce9870ba" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-rpc-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-rpc-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-rpc-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-rpc-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-rpc-server-one/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-rpc-server-one/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rpc-server-two/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rpc-server-two/src/main/java/top/ytazwc/test/SocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rpc-server-two/src/main/java/top/ytazwc/test/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-rpc-server-two/src/main/resources/rpc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,15 +29,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "YTAZWC"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/YTAZWC/y-rpc-test.git",
+    "accountId": "b23969f0-50b6-40cc-adbf-bfbd098cdedf"
+  }
+}]]></component>
   <component name="KotlinCodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="customMavenHome" value="D:\software\maven\apache-maven-3.6.3" />
+        <option name="customMavenHome" value="E:\software\maven\apache-maven-3.6.1" />
         <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
-        <option name="userSettingsFile" value="D:\software\maven\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="userSettingsFile" value="E:\software\maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -63,8 +78,8 @@
     "Maven.test-rpc-server-one [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/workspace/Java/test-rpc/test-rpc-interface/src/main/java/top/ytazwc/test",
     "node.js.detected.package.eslint": "true",
@@ -75,10 +90,11 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.22528736",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "fileTemplates",
     "typescript.add.unambiguous.imports.on.the.fly": "true",
     "vue.rearranger.settings.migration": "true",
     "应用程序.SocketClient.executor": "Run",
+    "应用程序.SocketServer (1).executor": "Run",
     "应用程序.SocketServer.executor": "Run"
   }
 }]]></component>
@@ -91,6 +107,19 @@
     <configuration name="SocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.ytazwc.test.SocketClient" />
       <module name="test-rpc-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.ytazwc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.ytazwc.test.SocketServer" />
+      <module name="test-rpc-server-two" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="top.ytazwc.test.*" />
@@ -118,6 +147,7 @@
       <list>
         <item itemvalue="应用程序.SocketClient" />
         <item itemvalue="应用程序.SocketServer" />
+        <item itemvalue="应用程序.SocketServer (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +172,7 @@
       <workItem from="1719764302611" duration="6000" />
       <workItem from="1722411563034" duration="32000" />
       <workItem from="1742816006761" duration="4905000" />
+      <workItem from="1742863230454" duration="728000" />
     </task>
     <task id="LOCAL-00001" summary="测试rpc初始工程">
       <option name="closed" value="true" />
@@ -175,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742821682776</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改总模块名">
+      <option name="closed" value="true" />
+      <created>1742863402416</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742863402416</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +225,7 @@
     <MESSAGE value="测试-接口模块" />
     <MESSAGE value="测试-服务提供者1" />
     <MESSAGE value="测试-客户端Socket" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试-客户端Socket" />
+    <MESSAGE value="修改总模块名" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改总模块名" />
   </component>
 </project>

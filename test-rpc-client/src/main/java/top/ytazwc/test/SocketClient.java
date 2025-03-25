@@ -22,11 +22,9 @@ public class SocketClient {
         RpcClientProxy proxy = new RpcClientProxy(new RpcClientSocket(), config);
         UserService service = proxy.getProxy(UserService.class);
 
-        String user = service.getUser();
-        System.out.println(user);
-
         for (int i = 0; i < 10; i++) {
-
+            String user = service.getUser();
+            System.out.println(user);
         }
 
     }

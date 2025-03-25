@@ -21,6 +21,7 @@
         <module>test-rpc-server-one</module>
         <module>test-rpc-client</module>
         <module>test-rpc-interface</module>
+        <module>test-rpc-server-two</module>
     </modules>
 
     <dependencyManagement>
