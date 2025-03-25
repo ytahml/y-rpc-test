@@ -25,6 +25,10 @@
             <artifactId>y-rpc-core</artifactId>
         </dependency>
         <dependency>
+            <groupId>top.ytazwc.rpc</groupId>
+            <artifactId>y-rpc-annotation</artifactId>
+        </dependency>
+        <dependency>
             <groupId>top.ytazwc.test</groupId>
             <artifactId>test-rpc-interface</artifactId>
         </dependency>

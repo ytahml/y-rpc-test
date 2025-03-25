@@ -1,5 +1,6 @@
 package top.ytazwc.test.service.impl;
 
+import top.ytazwc.rpc.annotations.RpcService;
 import top.ytazwc.test.entity.User;
 import top.ytazwc.test.service.UserService;
 
@@ -10,6 +11,7 @@ import top.ytazwc.test.service.UserService;
  * @package top.ytazwc.test.service.impl
  * @description
  */
+@RpcService(version = "1.1.0", group = "service")
 public class UserServiceImpl implements UserService {
 
     @Override

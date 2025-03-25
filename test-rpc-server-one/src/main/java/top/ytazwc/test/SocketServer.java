@@ -12,6 +12,7 @@ import top.ytazwc.test.service.impl.UserServiceImpl;
  * @package top.ytazwc.test
  * @description
  */
+@Deprecated
 public class SocketServer {
 
     public static void main(String[] args) {
