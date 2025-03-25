@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2debe2a-2526-425b-9e4a-2c37ce9870ba" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/test-rpc-server-two/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-rpc-server-two/src/main/java/top/ytazwc/test/SocketServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-rpc-server-two/src/main/java/top/ytazwc/test/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-rpc-server-two/src/main/resources/rpc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "YTAZWC"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YTAZWC&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/YTAZWC/y-rpc-test.git",
-    "accountId": "b23969f0-50b6-40cc-adbf-bfbd098cdedf"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/YTAZWC/y-rpc-test.git&quot;,
+    &quot;accountId&quot;: &quot;b23969f0-50b6-40cc-adbf-bfbd098cdedf&quot;
   }
-}]]></component>
+}</component>
   <component name="KotlinCodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
@@ -68,36 +62,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Maven.test-rpc [clean].executor": "Run",
-    "Maven.test-rpc-interface [clean].executor": "Run",
-    "Maven.test-rpc-interface [install].executor": "Run",
-    "Maven.test-rpc-interface [package].executor": "Run",
-    "Maven.test-rpc-server-one [clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/workspace/Java/test-rpc/test-rpc-interface/src/main/java/top/ytazwc/test",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.22528736",
-    "settings.editor.selected.configurable": "fileTemplates",
-    "typescript.add.unambiguous.imports.on.the.fly": "true",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.SocketClient.executor": "Run",
-    "应用程序.SocketServer (1).executor": "Run",
-    "应用程序.SocketServer.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Maven.test-rpc [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.test-rpc-interface [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.test-rpc-interface [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.test-rpc-interface [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.test-rpc-server-one [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/workspace/Java/test-rpc/test-rpc-interface/src/main/java/top/ytazwc/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.22528736&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
+    &quot;typescript.add.unambiguous.imports.on.the.fly&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.SocketClient.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.SocketServer (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.SocketServer.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace\Java\test-rpc\test-rpc-interface\src\main\java\top\ytazwc\test" />
@@ -172,7 +166,8 @@
       <workItem from="1719764302611" duration="6000" />
       <workItem from="1722411563034" duration="32000" />
       <workItem from="1742816006761" duration="4905000" />
-      <workItem from="1742863230454" duration="728000" />
+      <workItem from="1742863230454" duration="2476000" />
+      <workItem from="1742894442590" duration="620000" />
     </task>
     <task id="LOCAL-00001" summary="测试rpc初始工程">
       <option name="closed" value="true" />
@@ -214,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742863402416</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="增加服务节点2 测试负载均衡">
+      <option name="closed" value="true" />
+      <created>1742864085963</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742864085963</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +229,7 @@
     <MESSAGE value="测试-服务提供者1" />
     <MESSAGE value="测试-客户端Socket" />
     <MESSAGE value="修改总模块名" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改总模块名" />
+    <MESSAGE value="增加服务节点2 测试负载均衡" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加服务节点2 测试负载均衡" />
   </component>
 </project>
