@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>top.ytazwc.test</groupId>
-        <artifactId>test-rpc</artifactId>
+        <artifactId>y-rpc-test</artifactId>
         <version>1.0.0.socket</version>
     </parent>
 

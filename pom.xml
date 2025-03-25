@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <groupId>top.ytazwc.test</groupId>
-    <artifactId>test-rpc</artifactId>
+    <artifactId>y-rpc-test</artifactId>
     <version>1.0.0.socket</version>
     <packaging>pom</packaging>
 
