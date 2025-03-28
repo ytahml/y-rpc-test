@@ -25,6 +25,8 @@
         <module>test-rpc-server-two</module>
         <module>netty-server-one</module>
         <module>netty-client</module>
+        <module>netty-server-two</module>
+        <module>netty-client-spring</module>
     </modules>
 
     <dependencyManagement>
