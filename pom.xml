@@ -13,7 +13,8 @@
         <encoding>UTF-8</encoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <y-rpc.version>1.1.0.socket</y-rpc.version>
+<!--        <y-rpc.version>1.1.0.socket</y-rpc.version>-->
+        <y-rpc.version>2.1.0.netty</y-rpc.version>
         <test-rpc-interface.version>1.0-SNAPSHOT</test-rpc-interface.version>
     </properties>
 
@@ -22,6 +23,8 @@
         <module>test-rpc-client</module>
         <module>test-rpc-interface</module>
         <module>test-rpc-server-two</module>
+        <module>netty-server-one</module>
+        <module>netty-client</module>
     </modules>
 
     <dependencyManagement>

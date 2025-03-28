@@ -11,7 +11,9 @@
         <module name="test-rpc-interface" />
         <module name="test-rpc-client" />
         <module name="test-rpc-server-two" />
+        <module name="netty-client" />
         <module name="test-rpc-server-one" />
+        <module name="netty-server-one" />
       </profile>
     </annotationProcessing>
   </component>
