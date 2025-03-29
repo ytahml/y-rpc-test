@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2debe2a-2526-425b-9e4a-2c37ce9870ba" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/netty-client-spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client-spring/src/main/java/top/ytazwc/test/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-client-spring/src/main/resources/rpc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-server-two/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-server-two/src/main/java/top/ytazwc/test/NettyServerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-server-two/src/main/java/top/ytazwc/test/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty-server-two/src/main/resources/rpc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,45 +62,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Maven.test-rpc [clean].executor": "Run",
-    "Maven.test-rpc-interface [clean].executor": "Run",
-    "Maven.test-rpc-interface [install].executor": "Run",
-    "Maven.test-rpc-interface [package].executor": "Run",
-    "Maven.test-rpc-server-one [clean].executor": "Run",
-    "Maven.y-rpc-test [clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/workspace/Java/test-rpc/test-rpc-interface/src/main/java/top/ytazwc/test",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "E:/workspace/Java/test-rpc/netty-server-two/src/main/java/top/ytazwc/test/Main.java",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.22528736",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "typescript.add.unambiguous.imports.on.the.fly": "true",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.ClientSocketSpring.executor": "Run",
-    "应用程序.NettyClientMain.executor": "Run",
-    "应用程序.NettyClientMainSpring.executor": "Run",
-    "应用程序.NettyServerMain (1).executor": "Run",
-    "应用程序.NettyServerMain.executor": "Run",
-    "应用程序.ServerSocketSpring.executor": "Run",
-    "应用程序.SocketClient.executor": "Run",
-    "应用程序.SocketServer (1).executor": "Run",
-    "应用程序.SocketServer.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Maven.test-rpc [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.test-rpc-interface [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.test-rpc-interface [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.test-rpc-interface [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.test-rpc-server-one [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.y-rpc-test [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/workspace/Java/test-rpc/test-rpc-interface/src/main/java/top/ytazwc/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/workspace/Java/test-rpc/netty-server-two/src/main/java/top/ytazwc/test/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.22528736&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;typescript.add.unambiguous.imports.on.the.fly&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.ClientSocketSpring.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.NettyClientMain.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.NettyClientMainSpring.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.NettyServerMain (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.NettyServerMain.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ServerSocketSpring.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.SocketClient.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.SocketServer (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.SocketServer.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace\Java\test-rpc\test-rpc-interface\src\main\java\top\ytazwc\test" />
@@ -187,7 +176,6 @@
       <list>
         <item itemvalue="应用程序.NettyClientMainSpring" />
         <item itemvalue="应用程序.NettyClientMain" />
-        <item itemvalue="应用程序.NettyServerMain (1)" />
         <item itemvalue="应用程序.NettyServerMain" />
         <item itemvalue="应用程序.ClientSocketSpring" />
       </list>
@@ -265,11 +253,30 @@
       <option name="project" value="LOCAL" />
       <updated>1742864085963</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="测试基于netty的rpc测试，及使用Spring和注解来进行调用">
+      <option name="closed" value="true" />
+      <created>1743174195310</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743174195310</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试rpc初始工程" />
@@ -278,6 +285,7 @@
     <MESSAGE value="测试-客户端Socket" />
     <MESSAGE value="修改总模块名" />
     <MESSAGE value="增加服务节点2 测试负载均衡" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加服务节点2 测试负载均衡" />
+    <MESSAGE value="测试基于netty的rpc测试，及使用Spring和注解来进行调用" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试基于netty的rpc测试，及使用Spring和注解来进行调用" />
   </component>
 </project>
