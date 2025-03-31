@@ -9,6 +9,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="test-rpc-client" />
+        <module name="boot-server-one" />
         <module name="test-rpc-server-two" />
         <module name="netty-client" />
         <module name="netty-client-spring" />
