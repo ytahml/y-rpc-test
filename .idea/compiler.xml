@@ -9,6 +9,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="test-rpc-client" />
+        <module name="boot-client" />
         <module name="boot-server-one" />
         <module name="test-rpc-server-two" />
         <module name="netty-client" />
@@ -19,5 +20,8 @@
         <module name="test-rpc-server-one" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test-server" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

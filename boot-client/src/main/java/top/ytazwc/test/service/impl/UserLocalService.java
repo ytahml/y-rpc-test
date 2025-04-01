@@ -1,18 +1,18 @@
 package top.ytazwc.test.service.impl;
 
-import top.ytazwc.rpc.annotations.RpcService;
+import org.springframework.stereotype.Service;
 import top.ytazwc.test.service.UserService;
 
 /**
  * @author 00103943
- * @date 2025-03-31 10:44
+ * @date 2025-04-01 17:12
  * @package top.ytazwc.test.service.impl
  * @description
  */
-@RpcService(version = "1.1.1", group = "test")
-public class UserServiceImpl implements UserService {
+@Service("userLocalService")
+public class UserLocalService implements UserService {
     @Override
     public String getUser() {
-        return "User RPC Service one";
+        return "User Local Service one";
     }
 }

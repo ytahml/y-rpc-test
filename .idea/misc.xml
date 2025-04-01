@@ -23,7 +23,13 @@
         <option value="$PROJECT_DIR$/test-rpc-client/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/boot-server-one/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-client/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/test-server/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
