@@ -17,6 +17,8 @@ import java.util.concurrent.TimeUnit;
 @State(Scope.Benchmark)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
 @BenchmarkMode(Mode.Throughput)
+@Warmup(time = 5, timeUnit = TimeUnit.MILLISECONDS)
+@Measurement(time = 5, timeUnit = TimeUnit.MILLISECONDS)
 public class RPCTest {
 
 
@@ -29,11 +31,15 @@ public class RPCTest {
     }
 
     @Benchmark
+    @Fork(1)
+    @OperationsPerInvocation(3)
     public void testRpc() {
         userController.testRpc();
     }
 
     @Benchmark
+    @Fork(1)
+    @OperationsPerInvocation(3)
     public void testLocal() {
         userController.testLocal();
     }
@@ -41,9 +47,8 @@ public class RPCTest {
     public static void main(String[] args) throws RunnerException {
         Options opt = new OptionsBuilder()
                 .include(RPCTest.class.getSimpleName())
-                .forks(1)
                 .resultFormat(ResultFormatType.JSON)
-                .result("/D:/data/result-rpc.json")
+                .result("/E:/data/result-rpc.json")
                 .build();
 
         new Runner(opt).run();
