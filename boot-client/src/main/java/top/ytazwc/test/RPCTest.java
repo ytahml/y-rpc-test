@@ -16,9 +16,9 @@ import java.util.concurrent.TimeUnit;
  */
 @State(Scope.Benchmark)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
-@BenchmarkMode(Mode.Throughput)
-@Warmup(time = 5, timeUnit = TimeUnit.MILLISECONDS)
-@Measurement(time = 5, timeUnit = TimeUnit.MILLISECONDS)
+@BenchmarkMode(Mode.AverageTime)
+@Warmup
+@Measurement
 public class RPCTest {
 
 
@@ -31,14 +31,14 @@ public class RPCTest {
     }
 
     @Benchmark
-    @Fork(1)
+    @Fork(3)
     @OperationsPerInvocation(3)
     public void testRpc() {
         userController.testRpc();
     }
 
     @Benchmark
-    @Fork(1)
+    @Fork(3)
     @OperationsPerInvocation(3)
     public void testLocal() {
         userController.testLocal();
@@ -48,7 +48,7 @@ public class RPCTest {
         Options opt = new OptionsBuilder()
                 .include(RPCTest.class.getSimpleName())
                 .resultFormat(ResultFormatType.JSON)
-                .result("/E:/data/result-rpc.json")
+                .result("/D:/data/result-rpc-avg-2.json")
                 .build();
 
         new Runner(opt).run();
