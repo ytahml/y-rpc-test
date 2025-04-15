@@ -9,6 +9,7 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import top.ytazwc.test.controller.UserController;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -44,11 +45,22 @@ public class RPCTest {
         userController.testLocal();
     }
 
+    @Benchmark
+    @Fork(3)
+    @OperationsPerInvocation(3)
+    public void testHttp() {
+        try {
+            userController.testHttp();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     public static void main(String[] args) throws RunnerException {
         Options opt = new OptionsBuilder()
                 .include(RPCTest.class.getSimpleName())
                 .resultFormat(ResultFormatType.JSON)
-                .result("/D:/data/result-rpc-avg-2.json")
+                .result("/D:/data/result-rpc-avg-3.json")
                 .build();
 
         new Runner(opt).run();

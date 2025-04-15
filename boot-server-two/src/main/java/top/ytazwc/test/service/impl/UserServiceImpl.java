@@ -1,4 +1,4 @@
-package top.ytazwc.test.impl;
+package top.ytazwc.test.service.impl;
 
 import top.ytazwc.rpc.annotations.RpcService;
 import top.ytazwc.test.service.UserService;
